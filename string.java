@@ -40,7 +40,7 @@ public class string {
         else{
             System.out.println("Strings are not equal");
         }
-    }
+    } 
 
 
     }
