@@ -64,7 +64,7 @@ public class bitManupalition {
             int bitMask = 1<<pos;
             if (oper == 1) {
                 // set
-                int newNumber = bitMask | n;
+                int newNumber = bitMask | n; 
                 System.out.println(newNumber);
             } else {
                 int newBitmark = ~(bitMask);
