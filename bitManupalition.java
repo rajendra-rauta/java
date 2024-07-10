@@ -71,6 +71,7 @@ public class bitManupalition {
                 int newNumber = newBitmark & n;
                 System.out.println(newNumber);
             }
+            
     
         }
     
