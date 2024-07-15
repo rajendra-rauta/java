@@ -48,7 +48,7 @@ public class arraylist {
         // sorting 
 
 
-   collection.sort(list);
+   Collection.sort(list);
     System.out.println(list);
     }
 }
