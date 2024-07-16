@@ -141,6 +141,8 @@ class LL {
         list.deletLast();
         list.printList();
 
+
+        
         list.getSize();
         System.out.println(list.getSize());
         list.addFirst("This");
