@@ -31,7 +31,7 @@ public class looping {
 
     //    int  mul = num*i;
   
-        System.out.println(num*i);
+        System.out.println( num + " * " + i + " = "+ num*i);
       }
 
     }

@@ -41,17 +41,12 @@ import java.util.*;
 //        int b =sc.nextInt();
 
 //        int mul = calculateMul(a, b);
+
 //        System.out.println("product of two number :"+mul);
 //     }
 // }
 
-
-
-
-
-
-
- // <------------ factorial of number ----------->
+// <------------ factorial of number ----------->
 
 // public class function {
 //     public static void printFact(int num) {
@@ -77,3 +72,4 @@ import java.util.*;
 
 //     }
 // }
+
