@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 package Dsa;
 
 class LL {
