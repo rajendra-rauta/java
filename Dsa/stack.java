@@ -195,7 +195,7 @@ public class stack {
             return;
             
         }
-        int top = s.pop();
+        int top = s.pop(); 
         pushAtBottom(data, s);
         s.push(top);
     }
