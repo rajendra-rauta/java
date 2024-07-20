@@ -207,7 +207,7 @@ public class Queuey {
         }
     }
     public static int remove() {
-        if (isEmpty()) {
+        if (isEmpty()) { 
             System.out.println("Empty queue");
             return -1;
         }
