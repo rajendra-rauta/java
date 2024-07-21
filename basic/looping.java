@@ -18,7 +18,7 @@
 //     }
 // }
 
-// multiple table
+// multiple table 
 import java.util.*;
 
 public class looping {
