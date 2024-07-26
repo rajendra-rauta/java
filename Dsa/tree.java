@@ -1,51 +1,42 @@
-// package Dsa;
-
-// public class tree {
-    
-// }
-
-
-
 package Dsa;
 
-import java.util.*;
+public class tree {
 
-public class stack {
-    public static void pushAtBottom(int data, Stack<Integer> s) {
-        if (s.empty()) {
-            s.push(data);
-            return;
-            
+    static class Node {
+        int data;
+        Node left;
+        Node right;
+
+        Node(int data) {
+            this.data = data;
+            this.left = null;
+            this.right = null;
         }
-        int top = s.pop(); 
-        pushAtBottom(data, s);
-        s.push(top);
+
+    }
+    static class  BinaryTree {
+        static int idx = -1;
+        public static Node builTree(int  nodes[]){
+            idx ++;
+            if (nodes[idx]== -1) {
+                return null;
+            }
+            Node newNode = new Node(nodes[idx]);
+            newNode.left = builTree(nodes);
+            newNode.right = builTree(nodes);
+
+            return newNode;
+
+        }
+    
+        
     }
 
-    public static void reverse(Stack<Integer> s){
-        if (s.isEmpty()) {
-            return;
-        }
-        int top = s.pop();
-        reverse(s);
-        pushAtBottom(top, s);
-    }
     public static void main(String args[]) {
-        Stack<Integer> s = new Stack<>();
-        s.push(1);
-        s.push(2);
-        s.push(3);
-
-
-        reverse(s);
-
-        while (!s.isEmpty()) {
-            System.out.println(s.peek());
-            s.pop();
-        }
-    } 
+        int nodes[] = { 1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1 };
+        BinaryTree tree = new BinaryTree();
+       Node root =  tree.builTree(nodes);
+       System.out.println(root.data);
+    }
 
 }
-
-
- 
