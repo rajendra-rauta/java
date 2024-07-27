@@ -38,5 +38,6 @@ public class tree {
        Node root =  tree.builTree(nodes);
        System.out.println(root.data);
     }
+    
 
 }
