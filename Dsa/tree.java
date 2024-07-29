@@ -16,7 +16,7 @@ public class tree {
     }
     static class  BinaryTree {
         static int idx = -1;
-        public static Node builTree(int  nodes[]){
+        public static Node builTree(int  nodes[]) {
             idx ++;
             if (nodes[idx]== -1) {
                 return null;
