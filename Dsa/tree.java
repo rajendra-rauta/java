@@ -21,7 +21,7 @@ public class tree {
             if (nodes[idx]== -1) {
                 return null;
             }
-            Node newNode = new Node(nodes[idx]);
+            Node newNode = new Node(nodes[idx]); 
             newNode.left = builTree(nodes);
             newNode.right = builTree(nodes);
 
