@@ -26,7 +26,7 @@ public class tree {
             newNode.right = builTree(nodes);
 
             return newNode;
-
+ 
         }
     
         
