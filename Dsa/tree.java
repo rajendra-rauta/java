@@ -25,7 +25,7 @@ public class tree {
             newNode.left = builTree(nodes);
             newNode.right = builTree(nodes);
 
-            return newNode;
+            return newNode; 
  
         }
        
