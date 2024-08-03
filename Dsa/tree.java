@@ -22,7 +22,7 @@ public class tree {
                 return null;
             }
             Node newNode = new Node(nodes[idx]); 
-            newNode.left = builTree(nodes);
+            newNode.left = builTree(nodes); 
             newNode.right = builTree(nodes);
 
             return newNode; 
