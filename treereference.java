@@ -97,7 +97,7 @@ public class Main {
             System.out.println("Found " + searchKey + " in the tree.");
         } else {
             System.out.println(searchKey + " not found in the tree.");
-        } 
+        }   
     }
 }
 
