@@ -9,7 +9,7 @@ public class SumOfDigits {
 
         // Loop until the user enters a valid positive integer
         while (true) {
-            System.out.print("Enter a positive integer: ");
+            System.out.print("Enter a positive integer: "); 
             if (scanner.hasNextInt()) {
                 number = scanner.nextInt();
                 if (number > 0) {
